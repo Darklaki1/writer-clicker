@@ -322,6 +322,14 @@ input::-webkit-inner-spin-button {
     font-weight: bold;
     letter-spacing: 0.055em;
 }
+.f-sudoku-tut{
+    font-family: "Open Sans",  sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.055em;
+    color: #fafafa;
+    text-shadow: 1px 1px 2px #000000;
+    font-weight: bold;
+}
 .f-catchDot-count{
     font-family: "Open Sans",  sans-serif;
     font-size: 15px;
@@ -1446,6 +1454,17 @@ input::-webkit-inner-spin-button {
     transition: opacity .3s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 /*minigame-fastsudoku*/
+.minigame-fastsudoku-wrap{
+    position: relative;
+    z-index: 4;
+}
+.minigame-fastsudoku-tut{
+    position: absolute;
+    width: 230px;
+    right: 11px;
+    top: 117px;
+    transition: all .3s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
 .minigame-fastsudoku{
     width: 273px;
     height: 279px;
